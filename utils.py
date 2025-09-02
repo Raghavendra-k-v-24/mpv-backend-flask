@@ -33,7 +33,7 @@ def flatten_file(file: object) -> str:
     try:
         file_bytes = file.read()
         file_base64 = base64.b64encode(file_bytes).decode("utf-8")
-        response = requests.post( "http://localhost:3000/flatten-file",
+        response = requests.post("https://mpv-backend-node.vercel.app/flatten-file",
                     json={"file_base64": file_base64}
                     )
         if response.status_code == 200:
