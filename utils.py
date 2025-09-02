@@ -10,6 +10,8 @@ from pdf2image import convert_from_bytes
 from io import BytesIO
 from botocore.config import Config
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+
 # load .env file 
 load_dotenv()
 
@@ -50,7 +52,7 @@ def convert_pdf_to_image(pdf_base64: str) -> list:
                     flattened_pdf_bytes,
                     # first_page=1,
                     # last_page=1,
-                    poppler_path=r"C:\Users\ragha\Downloads\Release-25.07.0-0\poppler-25.07.0\Library\bin",
+                    poppler_path=os.path.join(BASE_DIR, "bin", "pdftoppm"),
                     use_pdftocairo = True
                 )
         buffers =[]
