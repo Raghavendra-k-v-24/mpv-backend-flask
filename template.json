@@ -1,0 +1,649 @@
+{
+  "lender_loan_number": "",
+  "agency_case_number": "",
+  "borrower_information": {
+    "personal_information": {
+      "borrower_name": "",
+      "social_security_number": "",
+      "alternate_borrower_names": {
+        "__desp": "Alternate names by which borrower is known or any names under which credit was previously received (If any)",
+        "names": ""
+      },
+      "date_of_birth": "",
+      "citizenship": "",
+      "type_of_credit": {
+        "type": "",
+        "number_of_borrowers": "",
+        "borrower_initials": ""
+      },
+      "other_borrower_names": {
+        "__desp": "Other borrower names applying for this loan",
+        "names": ""
+      },
+      "marital_status": "",
+      "dependents": {
+        "number_of_dependents": "",
+        "ages_of_dependents": ""
+      },
+      "contact_information": {
+        "home_phone": "",
+        "cell_phone": "",
+        "work_phone": "",
+        "email_address": "",
+        "extension": ""
+      },
+      "current_address": {
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": "",
+        "years_at_address": "",
+        "months_at_address": "",
+        "housing": {
+          "type": "",
+          "monthly_rent": ""
+        }
+      },
+      "former_address": {
+        "__desp": "If current address occupany is less than two years",
+        "does_not_apply": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": "",
+        "years_at_address": "",
+        "months_at_address": "",
+        "housing": {
+          "type": "",
+          "monthly_rent": ""
+        }
+      },
+      "mailing_address": {
+        "__desp": "If different from current address",
+        "does_not_apply": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": ""
+      }
+    },
+    "current_employment_or_self_income_information": {
+      "does_not_apply": true,
+      "employer_or_business_name": "",
+      "phone": "",
+      "street": "",
+      "unit": "",
+      "city": "",
+      "state": "",
+      "zip_code": "",
+      "country": "",
+      "position_or_title": "",
+      "start_date": "",
+      "years_at_work": "",
+      "months_at_work": "",
+      "employed_by_related_party": {
+        "__desp": "Employed by a family member, property seller, real estate agent, or other party of the transaction",
+        "value": true
+      },
+      "gross_monthly_income": {
+        "base_pay": "",
+        "overtime_pay": "",
+        "bonus_pay": "",
+        "commissions": "",
+        "military_entitlements": "",
+        "other": "",
+        "total_income": ""
+      },
+      "business_owner_or_self_employed": {
+        "does_not_apply": true,
+        "ownership_share": "",
+        "monthly_income_or_loss": ""
+      }
+    },
+    "additional_employment_or_self_income_information": {
+      "does_not_apply": true,
+      "employer_or_business_name": "",
+      "phone": "",
+      "street": "",
+      "unit": "",
+      "city": "",
+      "state": "",
+      "zip_code": "",
+      "country": "",
+      "position_or_title": "",
+      "start_date": "mm/dd/yyyy",
+      "years_at_work": "",
+      "months_at_work": "",
+      "employed_by_related_party": {
+        "__desp": "Employed by a family member, property seller, real estate agent, or other party of the transaction",
+        "value": true
+      },
+      "gross_monthly_income": {
+        "base_pay": "",
+        "overtime_pay": "",
+        "bonus_pay": "",
+        "commissions": "",
+        "military_entitlements": "",
+        "other": "",
+        "total_income": ""
+      },
+      "business_owner_or_self_employed": {
+        "does_not_apply": true,
+        "ownership_share": "",
+        "monthly_income_or_loss": ""
+      }
+    },
+    "previous_employment_or_self_income_information": {
+      "does_not_apply": true,
+      "employer_or_business_name": "",
+      "street": "",
+      "unit": "",
+      "city": "",
+      "state": "",
+      "zip_code": "",
+      "country": "",
+      "position_or_title": "",
+      "start_date": "mm/dd/yyyy",
+      "end_date": "mm/dd/yyyy",
+      "business_owner_or_self_employed": {
+        "__desp": "If you were the Business owner or self employed",
+        "value": true
+      },
+      "gross_monthly_income": ""
+    },
+    "income_from_other_sources": {
+      "does_not_apply": true,
+      "items": [
+        { "source_name": "", "income": "" },
+        { "source_name": "", "income": "" },
+        { "source_name": "", "income": "" }
+      ],
+      "total_income": ""
+    }
+  },
+  "financial_information_assets_and_liabilities": {
+    "assets": {
+      "items": [
+        {
+          "account_type": "",
+          "financial_institution": "",
+          "account_number": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "account_type": "",
+          "financial_institution": "",
+          "account_number": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "account_type": "",
+          "financial_institution": "",
+          "account_number": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "account_type": "",
+          "financial_institution": "",
+          "account_number": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "account_type": "",
+          "financial_institution": "",
+          "account_number": "",
+          "cash_or_market_value": ""
+        }
+      ],
+      "total_cash_or_market_value": ""
+    },
+    "other_assets_or_credits": {
+      "does_not_apply": true,
+      "items": [
+        {
+          "assest": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "assest": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "assest": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "assest": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "assest": "",
+          "cash_or_market_value": ""
+        }
+      ],
+      "total_cash_or_market_value": ""
+    },
+    "liabilities": {
+      "does_not_apply": true,
+      "items": [
+        {
+          "account_type": "",
+          "company_name": "",
+          "account_number": "",
+          "unpaid_balance": "",
+          "paid_off_at_or_before_closing": "",
+          "monthly_payment": ""
+        },
+        {
+          "account_type": "",
+          "company_name": "",
+          "account_number": "",
+          "unpaid_balance": "",
+          "paid_off_at_or_before_closing": "",
+          "monthly_payment": ""
+        },
+        {
+          "account_type": "",
+          "company_name": "",
+          "account_number": "",
+          "unpaid_balance": "",
+          "paid_off_at_or_before_closing": "",
+          "monthly_payment": ""
+        },
+        {
+          "account_type": "",
+          "company_name": "",
+          "account_number": "",
+          "unpaid_balance": "",
+          "paid_off_at_or_before_closing": "",
+          "monthly_payment": ""
+        },
+        {
+          "account_type": "",
+          "company_name": "",
+          "account_number": "",
+          "unpaid_balance": "",
+          "paid_off_at_or_before_closing": "",
+          "monthly_payment": ""
+        }
+      ]
+    },
+    "other_liabilities_and_expenses": {
+      "does_not_apply": true,
+      "items": [
+        {
+          "liability": "",
+          "monthly_payment": ""
+        },
+        {
+          "liability": "",
+          "monthly_payment": ""
+        },
+        {
+          "liability": "",
+          "monthly_payment": ""
+        }
+      ]
+    }
+  },
+  "financial_information_real_estate": {
+    "does_not_apply": false,
+    "property_you_own": {
+      "property_address": {
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": ""
+      },
+      "property_details": {
+        "items": [
+          {
+            "property_value": "",
+            "property_status": "",
+            "intended_occupancy": "",
+            "monthly_insurance_taxes_and_association_dues": "",
+            "monthly_rental_income": "",
+            "net_monthly_rental_income": ""
+          }
+        ]
+      },
+      "mortgage_loan_on_this_property": true,
+      "mortage_loan_details": {
+        "items": [
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          },
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          }
+        ]
+      }
+    },
+    "additional_property_1": {
+      "property_address": {
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": ""
+      },
+      "property_details": {
+        "items": [
+          {
+            "property_value": "",
+            "property_status": "",
+            "intended_occupancy": "",
+            "monthly_insurance_taxes_and_association_dues": "",
+            "monthly_rental_income": "",
+            "net_monthly_rental_income": ""
+          }
+        ]
+      },
+      "mortgage_loan_on_this_property": true,
+      "mortage_loan_details": {
+        "items": [
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          },
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          }
+        ]
+      }
+    },
+    "additional_property_2": {
+      "property_address": {
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": ""
+      },
+      "property_details": {
+        "items": [
+          {
+            "property_value": "",
+            "property_status": "",
+            "intended_occupancy": "",
+            "monthly_insurance_taxes_and_association_dues": "",
+            "monthly_rental_income": "",
+            "net_monthly_rental_income": ""
+          }
+        ]
+      },
+      "mortgage_loan_on_this_property": true,
+      "mortage_loan_details": {
+        "items": [
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          },
+          {
+            "creditor_name": "",
+            "account_number": "",
+            "monthly_mortgage_payment": "",
+            "unpaid_balance": {
+              "paid_off_at_or_before_closing": true,
+              "value": ""
+            },
+            "type_of_loan": "",
+            "credit_limit": ""
+          }
+        ]
+      }
+    }
+  },
+  "loan_and_property_information": {
+    "loan_and_property_information": {
+      "loan_amount": "",
+      "loan_purpose": "",
+      "property_address": {
+        "street": "",
+        "unit": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "country": "",
+        "number_of_units": "",
+        "property_value": ""
+      },
+      "occupancy": "",
+      "fha_secondary_residence": true,
+      "mixed_use_property": {
+        "__desp": "If you will occupy the property, will you set aside space within the property to operate your own business?",
+        "value": true
+      },
+      "manufactured_home": {
+        "__desp": "e. Is the property a manufactured home? (e.g., a factory built dwelling built on a permanent chassis)",
+        "value": true
+      }
+    },
+    "other_mortgage_loan_on_buying_property": {
+      "does_not_apply": true,
+      "items": [
+        {
+          "creditor_name": "",
+          "lien_type": "",
+          "monthly_payment": "",
+          "loan_amount": "",
+          "credit_limit": ""
+        },
+        {
+          "creditor_name": "",
+          "lien_type": "",
+          "monthly_payment": "",
+          "loan_amount": "",
+          "credit_limit": ""
+        }
+      ]
+    },
+    "rental_income_on_property_you_want_to_purchase": {
+      "does_not_apply": true,
+      "expected_monthly_rental_income": "",
+      "expected_net_monthly_rental_income": ""
+    },
+    "gifts_or_grants": {
+      "__desp": "Gifts or grants you have been or will receive for this loan",
+      "does_not_apply": true,
+      "items": [
+        {
+          "asset_type": "",
+          "deposited": "",
+          "source": "",
+          "cash_or_market_value": ""
+        },
+        {
+          "asset_type": "",
+          "deposited": "",
+          "source": "",
+          "cash_or_market_value": ""
+        }
+      ]
+    }
+  },
+  "declarations": {
+    "occupy_as_primary_residence": {
+      "__desp": "Will you occupy the property as your primary residence?",
+      "value": ""
+    },
+    "ownership_interest_in_another_property": {
+      "__desp": "Have you had an ownership interest in another property in the last three years?",
+      "value": ""
+    },
+    "property_you_owned": {
+      "__desp": "Type of property you owned in last three years.",
+      "value": ""
+    },
+    "holding_title": {
+      "__desp": "Your holding title of the property you owned",
+      "value": ""
+    },
+    "relationship_with_seller": {
+      "__desp": "Do you have a family relationship or business affiliation with the seller of the property?",
+      "value": ""
+    },
+    "borrowing_money": {
+      "__desp": "Are you borrowing any money for this real estate transaction (e.g., money for your closing costs or down payment) or obaining any money from another party, such as the seller or realtor, that you have not disclosed on this loan application?",
+      "value": "",
+      "amount": ""
+    },
+    "applying_for_mortgage_loan_on_another_property": {
+      "__desp": " Have you or will you be applying for a mortgage loan on another property (not the property securing this loan) on or before closing this transaction that is not disclosed on this loan application?",
+      "value": ""
+    },
+    "applying_for_new_credit": {
+      "__desp": " Have you or will you be applying for any new credit (e.g., installment loan, credit card, etc.) on or before closing this loan that is not disclosed on this application?",
+      "value": ""
+    },
+    "priority_over_first_mortgage_loan": {
+      "__desp": "Will this property be subject to a lien that could take priority over the first mortgage lien, such as a clean energy lien paid through your property taxes (e.g., the Property Assessed Clean Energy Program)?",
+      "value": ""
+    },
+    "co-signer_or_guarantor": {
+      "__desp": "Are you a co-signer or guarantor on any debt or loan that is not disclosed on this application?",
+      "value": ""
+    },
+    "oustanding_judgements": {
+      "__desp": "Are there any outstanding judgments against you?",
+      "value": ""
+    },
+    "delinquent_or_in_default": {
+      "__desp": "Are you currently delinquent or in default on a Federal debt?",
+      "value": ""
+    },
+    "party_to_a_lawsuit": {
+      "__desp": "Are you a party to a lawsuit in which you potentially have any personal financial liability?",
+      "value": ""
+    },
+    "conveyed_title_to_any_property": {
+      "__desp": "Have you conveyed title to any property in lieu of foreclosure in the past 7 years?",
+      "value": ""
+    },
+    "completed_pre_foreclosure_sale_or_short_sale": {
+      "__desp": "Within the past 7 years, have you completed a pre-foreclosure sale or short sale, whereby the property was sold to a third party and the Lender agreed to accept less than the outstanding mortgage balance due?",
+      "value": ""
+    },
+    "property_foreclosed": {
+      "__desp": "Have you had property foreclosed upon in the last 7 years?",
+      "value": ""
+    },
+    "bankruptcy": {
+      "__desp": "Have you declared bankruptcy within the past 7 years?",
+      "value": "",
+      "chapter_7": "",
+      "chapter_11": "",
+      "chapter_12": "",
+      "chapter_13": ""
+    }
+  },
+  "military_service": {
+    "served_as_armed_forces": "",
+    "currently_serving": {
+      "does_not_apply": true,
+      "expiration_date": ""
+    },
+    "currently_retired_discharged_or_separated": true,
+    "non_activated_member_of_reserve_or_national_guard": true,
+    "surviving_spouse": true
+  },
+  "demographic_information": {
+    "ethinicity": {
+      "hispanic_or_latino": false,
+      "mexican": false,
+      "puerto_rico": false,
+      "cuban": false,
+      "other_hispanic_or_latino": false,
+      "other_hispanic_or_latino_value": "",
+      "not_hispanic_or_latino": false,
+      "do_not_wish_to_provide_information": false
+    },
+    "race": {
+      "american_indian_or_alaska_native": false,
+      "american_indian_or_alaska_native_principal_tribe": "",
+      "asian": false,
+      "asian_indian": false,
+      "chinese": false,
+      "fillipino": false,
+      "japanese": false,
+      "korean": false,
+      "vietnamese": false,
+      "other_asian": false,
+      "other_asian_race": "",
+      "black_or_african_american": false,
+      "native_hawaiian_or_other_pacific_islander": false,
+      "native_hawaiian": false,
+      "guamanian_or_chamorro": false,
+      "samoan": false,
+      "other_pacific_islander": false,
+      "other_pacific_islander_race": "",
+      "white": false,
+      "do_not_wish_to_provide_information": ""
+    },
+    "sex": "",
+    "ethinicity_collected_based_on_visual_observation_or_surname": true,
+    "sex_collected_based_on_visual_observation_or_surname": true,
+    "race_collected_based_on_visual_observation_or_surname": true,
+    "demographic_information_provide_through": ""
+  },
+  "loan_originator_information": {
+    "loan_originator_organization_name": "",
+    "address": "",
+    "loan_originator_organization_NMLSR_id": "",
+    "loan_originator_organization_state_license_id": "",
+    "loan_originator_name": "",
+    "loan_originator_NMLSR_id": "",
+    "loan_originator_state_license_id": "",
+    "loan_originator_email": "",
+    "loan_originator_phone": "",
+    "date_signed": ""
+  }
+}
